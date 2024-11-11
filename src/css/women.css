@@ -1,10 +1,11 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    
     font-family: Arial, sans-serif;
     color: #333;
     text-decoration: none;
+}
 }
 
 body {
@@ -12,6 +13,7 @@ body {
     color: #333;
 }
 
+/* Header */
 .header {
     display: flex;
     justify-content: space-between;
@@ -38,59 +40,32 @@ body {
     font-weight: bold;
 }
 
-.slideshow-container {
-    position: relative;
-    max-width: 100%;
-    margin: auto;
-    overflow: hidden;
-}
-
-.slide {
-    display: none;
-}
-
-.slide img {
-    width: 100%;
-    height: auto;
-}
-
-.fade {
-    animation: fadeEffect 1.5s ease-in-out;
-}
-
-@keyframes fadeEffect {
-    from { opacity: 0.4; }
-    to { opacity: 1; }
-}
-
-.dots {
+/* Banner Section */
+.banner {
     text-align: center;
-    padding: 10px;
-    background: #333;
+    padding: 80px 20px;
+    background-color: #cc3399;
+    color: #fff;
 }
 
-.dot {
-    height: 15px;
-    width: 15px;
-    margin: 0 5px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-    cursor: pointer;
+.banner h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
 }
 
-.active, .dot:hover {
-    background-color: #717171;
+.banner p {
+    font-size: 18px;
+    color: #f0e0f6;
 }
 
-.popular-products, .mens-jackets, .womens-dresses, .new-arrivals {
+/* Women’s Product Sections */
+.women-section {
     padding: 40px 20px;
     background-color: #fff;
     margin: 20px 0;
 }
 
-.popular-products h2, .mens-jackets h2, .womens-dresses h2, .new-arrivals h2 {
+.women-section h2 {
     text-align: center;
     margin-bottom: 20px;
     font-size: 32px;
@@ -124,6 +99,12 @@ body {
     border-radius: 10px;
     margin-bottom: 10px;
 }
+
+.product-card p {
+    font-size: 16px;
+    color: #333;
+}
+
 
 .footer {
     text-align: center;

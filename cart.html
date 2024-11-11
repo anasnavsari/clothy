@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="src/css/cart.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="logo"><a href="index.html">Clothy.</a></div>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="men.html">Men</a></li>
+                <li><a href="women.html">Women</a></li>
+                <li><a href="cart.html">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Cart Section -->
+    <section class="cart">
+        <h1>Shopping Cart</h1>
+        
+        <!-- Cart Items -->
+        <div class="cart-items">
+            <!-- Item 1 -->
+            <div class="cart-item">
+                <img src="src/img/Floral Dress.jfif" alt="Item 1">
+                <div class="item-details">
+                    <p class="item-name">Floral Print Dress</p>
+                    <p class="item-price">$40.00</p>
+                    <div class="item-quantity">
+                        <button class="quantity-btn">-</button>
+                        <input type="text" value="1">
+                        <button class="quantity-btn">+</button>
+                    </div>
+                    <p class="item-subtotal">$40.00</p>
+                </div>
+            </div>
+            <!-- Item 2 -->
+            <div class="cart-item">
+                <img src="src/img/Leather Jacket.jfif" alt="Item 2">
+                <div class="item-details">
+                    <p class="item-name">Leather Jacket</p>
+                    <p class="item-price">$120.00</p>
+                    <div class="item-quantity">
+                        <button class="quantity-btn">-</button>
+                        <input type="text" value="1">
+                        <button class="quantity-btn">+</button>
+                    </div>
+                    <p class="item-subtotal">$120.00</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Cart Summary -->
+        <div class="cart-summary">
+            <p>Subtotal: <span>$160.00</span></p>
+            <p>Tax: <span>$8.00</span></p>
+            <p>Total: <span>$168.00</span></p>
+            <button class="checkout-btn">Proceed to Checkout</button>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <p>Follow Us On</p>
+        <div class="social-icons">
+            <img src="src/img/facebook.jfif" alt="Facebook">
+            <img src="src/img/Instagram.png" alt="Instagram">
+            <img src="src/img/twitter.png" alt="Twitter">
+        </div>
+        <p>&copy; 2023 Clothy. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
